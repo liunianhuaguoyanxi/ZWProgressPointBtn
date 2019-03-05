@@ -1,6 +1,6 @@
 # ZWProgressPointBtn
 ## 类似王者荣耀技能按钮/圆环状进度按钮
-## 代码实例:
+## 代码示例（Code sample）:
    ```
     ZWProgressPointBtn *progressViewBtn = [[ZWProgressPointBtn alloc]initWithFrame:CGRectMake((self.view.frame.size.width - 70)/2, 130, 75  , 75)];
     progressViewBtn.indexCount=0;
