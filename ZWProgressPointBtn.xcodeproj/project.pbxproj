@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0A4B04221E47DC00351B1A /* ZWProgressCenterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A4B03221E47DC00351B1A /* ZWProgressCenterBtn.m */; };
+		8F781C64222E117600BA9B2C /* FirstDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F781C63222E117600BA9B2C /* FirstDemoController.m */; };
+		8F781C67222E118D00BA9B2C /* SecondeDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F781C66222E118D00BA9B2C /* SecondeDemoController.m */; };
+		8F8109E921F95D1E0028C353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8109E821F95D1E0028C353 /* AppDelegate.m */; };
+		8F8109EC21F95D1E0028C353 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8109EB21F95D1E0028C353 /* ViewController.m */; };
+		8F8109F121F95D200028C353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8109F021F95D200028C353 /* Assets.xcassets */; };
+		8F8109F721F95D200028C353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8109F621F95D200028C353 /* main.m */; };
+		8F810A0121F95D200028C353 /* ZWProgressPointBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F810A0021F95D200028C353 /* ZWProgressPointBtnTests.m */; };
+		8F810A0C21F95D200028C353 /* ZWProgressPointBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F810A0B21F95D200028C353 /* ZWProgressPointBtnUITests.m */; };
+		8F810A1B21F95E6A0028C353 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F810A1A21F95E6A0028C353 /* Launch Screen.storyboard */; };
+		8F810A1F21F95F480028C353 /* ZWBackGroundProgressPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F810A1E21F95F480028C353 /* ZWBackGroundProgressPointView.m */; };
+		8F810A2221F96F170028C353 /* ZWProgressPointBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F810A2121F96F170028C353 /* ZWProgressPointBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F8109FD21F95D200028C353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F8109DC21F95D1E0028C353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F8109E321F95D1E0028C353;
+			remoteInfo = ZWProgressPointBtn;
+		};
+		8F810A0821F95D200028C353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F8109DC21F95D1E0028C353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F8109E321F95D1E0028C353;
+			remoteInfo = ZWProgressPointBtn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0A4B02221E47DC00351B1A /* ZWProgressCenterBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWProgressCenterBtn.h; sourceTree = "<group>"; };
+		8F0A4B03221E47DC00351B1A /* ZWProgressCenterBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWProgressCenterBtn.m; sourceTree = "<group>"; };
+		8F781C62222E117600BA9B2C /* FirstDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstDemoController.h; sourceTree = "<group>"; };
+		8F781C63222E117600BA9B2C /* FirstDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstDemoController.m; sourceTree = "<group>"; };
+		8F781C65222E118D00BA9B2C /* SecondeDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondeDemoController.h; sourceTree = "<group>"; };
+		8F781C66222E118D00BA9B2C /* SecondeDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondeDemoController.m; sourceTree = "<group>"; };
+		8F8109E421F95D1E0028C353 /* ZWProgressPointBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWProgressPointBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8109E721F95D1E0028C353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F8109E821F95D1E0028C353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F8109EA21F95D1E0028C353 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F8109EB21F95D1E0028C353 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F8109F021F95D200028C353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F8109F521F95D200028C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8109F621F95D200028C353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F8109FC21F95D200028C353 /* ZWProgressPointBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWProgressPointBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F810A0021F95D200028C353 /* ZWProgressPointBtnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWProgressPointBtnTests.m; sourceTree = "<group>"; };
+		8F810A0221F95D200028C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F810A0721F95D200028C353 /* ZWProgressPointBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWProgressPointBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F810A0B21F95D200028C353 /* ZWProgressPointBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWProgressPointBtnUITests.m; sourceTree = "<group>"; };
+		8F810A0D21F95D200028C353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F810A1A21F95E6A0028C353 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Other/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8F810A1D21F95F480028C353 /* ZWBackGroundProgressPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWBackGroundProgressPointView.h; sourceTree = "<group>"; };
+		8F810A1E21F95F480028C353 /* ZWBackGroundProgressPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWBackGroundProgressPointView.m; sourceTree = "<group>"; };
+		8F810A2021F96F170028C353 /* ZWProgressPointBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWProgressPointBtn.h; sourceTree = "<group>"; };
+		8F810A2121F96F170028C353 /* ZWProgressPointBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWProgressPointBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8109E121F95D1E0028C353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8109F921F95D200028C353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F810A0421F95D200028C353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F781C5E222E110900BA9B2C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8F781C62222E117600BA9B2C /* FirstDemoController.h */,
+				8F781C63222E117600BA9B2C /* FirstDemoController.m */,
+				8F781C65222E118D00BA9B2C /* SecondeDemoController.h */,
+				8F781C66222E118D00BA9B2C /* SecondeDemoController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8F8109DB21F95D1E0028C353 = {
+			isa = PBXGroup;
+			children = (
+				8F8109E621F95D1E0028C353 /* ZWProgressPointBtn */,
+				8F8109FF21F95D200028C353 /* ZWProgressPointBtnTests */,
+				8F810A0A21F95D200028C353 /* ZWProgressPointBtnUITests */,
+				8F8109E521F95D1E0028C353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8109E521F95D1E0028C353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8109E421F95D1E0028C353 /* ZWProgressPointBtn.app */,
+				8F8109FC21F95D200028C353 /* ZWProgressPointBtnTests.xctest */,
+				8F810A0721F95D200028C353 /* ZWProgressPointBtnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8109E621F95D1E0028C353 /* ZWProgressPointBtn */ = {
+			isa = PBXGroup;
+			children = (
+				8F781C5E222E110900BA9B2C /* Demo */,
+				8F810A1C21F95E9E0028C353 /* ZWProgressPointBtn */,
+				8F810A1921F95D490028C353 /* Other */,
+				8F810A1A21F95E6A0028C353 /* Launch Screen.storyboard */,
+				8F8109F521F95D200028C353 /* Info.plist */,
+			);
+			path = ZWProgressPointBtn;
+			sourceTree = "<group>";
+		};
+		8F8109FF21F95D200028C353 /* ZWProgressPointBtnTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F810A0021F95D200028C353 /* ZWProgressPointBtnTests.m */,
+				8F810A0221F95D200028C353 /* Info.plist */,
+			);
+			path = ZWProgressPointBtnTests;
+			sourceTree = "<group>";
+		};
+		8F810A0A21F95D200028C353 /* ZWProgressPointBtnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F810A0B21F95D200028C353 /* ZWProgressPointBtnUITests.m */,
+				8F810A0D21F95D200028C353 /* Info.plist */,
+			);
+			path = ZWProgressPointBtnUITests;
+			sourceTree = "<group>";
+		};
+		8F810A1921F95D490028C353 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8F8109E721F95D1E0028C353 /* AppDelegate.h */,
+				8F8109E821F95D1E0028C353 /* AppDelegate.m */,
+				8F8109F021F95D200028C353 /* Assets.xcassets */,
+				8F8109F621F95D200028C353 /* main.m */,
+				8F8109EA21F95D1E0028C353 /* ViewController.h */,
+				8F8109EB21F95D1E0028C353 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8F810A1C21F95E9E0028C353 /* ZWProgressPointBtn */ = {
+			isa = PBXGroup;
+			children = (
+				8F810A1D21F95F480028C353 /* ZWBackGroundProgressPointView.h */,
+				8F810A1E21F95F480028C353 /* ZWBackGroundProgressPointView.m */,
+				8F810A2021F96F170028C353 /* ZWProgressPointBtn.h */,
+				8F810A2121F96F170028C353 /* ZWProgressPointBtn.m */,
+				8F0A4B02221E47DC00351B1A /* ZWProgressCenterBtn.h */,
+				8F0A4B03221E47DC00351B1A /* ZWProgressCenterBtn.m */,
+			);
+			path = ZWProgressPointBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8109E321F95D1E0028C353 /* ZWProgressPointBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F810A1021F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtn" */;
+			buildPhases = (
+				8F8109E021F95D1E0028C353 /* Sources */,
+				8F8109E121F95D1E0028C353 /* Frameworks */,
+				8F8109E221F95D1E0028C353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWProgressPointBtn;
+			productName = ZWProgressPointBtn;
+			productReference = 8F8109E421F95D1E0028C353 /* ZWProgressPointBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F8109FB21F95D200028C353 /* ZWProgressPointBtnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F810A1321F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtnTests" */;
+			buildPhases = (
+				8F8109F821F95D200028C353 /* Sources */,
+				8F8109F921F95D200028C353 /* Frameworks */,
+				8F8109FA21F95D200028C353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F8109FE21F95D200028C353 /* PBXTargetDependency */,
+			);
+			name = ZWProgressPointBtnTests;
+			productName = ZWProgressPointBtnTests;
+			productReference = 8F8109FC21F95D200028C353 /* ZWProgressPointBtnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F810A0621F95D200028C353 /* ZWProgressPointBtnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F810A1621F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtnUITests" */;
+			buildPhases = (
+				8F810A0321F95D200028C353 /* Sources */,
+				8F810A0421F95D200028C353 /* Frameworks */,
+				8F810A0521F95D200028C353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F810A0921F95D200028C353 /* PBXTargetDependency */,
+			);
+			name = ZWProgressPointBtnUITests;
+			productName = ZWProgressPointBtnUITests;
+			productReference = 8F810A0721F95D200028C353 /* ZWProgressPointBtnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8109DC21F95D1E0028C353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = liunianhuaguoyanxi;
+				TargetAttributes = {
+					8F8109E321F95D1E0028C353 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8F8109FB21F95D200028C353 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F8109E321F95D1E0028C353;
+					};
+					8F810A0621F95D200028C353 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F8109E321F95D1E0028C353;
+					};
+				};
+			};
+			buildConfigurationList = 8F8109DF21F95D1E0028C353 /* Build configuration list for PBXProject "ZWProgressPointBtn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F8109DB21F95D1E0028C353;
+			productRefGroup = 8F8109E521F95D1E0028C353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8109E321F95D1E0028C353 /* ZWProgressPointBtn */,
+				8F8109FB21F95D200028C353 /* ZWProgressPointBtnTests */,
+				8F810A0621F95D200028C353 /* ZWProgressPointBtnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8109E221F95D1E0028C353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F810A1B21F95E6A0028C353 /* Launch Screen.storyboard in Resources */,
+				8F8109F121F95D200028C353 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8109FA21F95D200028C353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F810A0521F95D200028C353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8109E021F95D1E0028C353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8109EC21F95D1E0028C353 /* ViewController.m in Sources */,
+				8F781C64222E117600BA9B2C /* FirstDemoController.m in Sources */,
+				8F810A1F21F95F480028C353 /* ZWBackGroundProgressPointView.m in Sources */,
+				8F8109F721F95D200028C353 /* main.m in Sources */,
+				8F781C67222E118D00BA9B2C /* SecondeDemoController.m in Sources */,
+				8F8109E921F95D1E0028C353 /* AppDelegate.m in Sources */,
+				8F810A2221F96F170028C353 /* ZWProgressPointBtn.m in Sources */,
+				8F0A4B04221E47DC00351B1A /* ZWProgressCenterBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8109F821F95D200028C353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F810A0121F95D200028C353 /* ZWProgressPointBtnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F810A0321F95D200028C353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F810A0C21F95D200028C353 /* ZWProgressPointBtnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F8109FE21F95D200028C353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F8109E321F95D1E0028C353 /* ZWProgressPointBtn */;
+			targetProxy = 8F8109FD21F95D200028C353 /* PBXContainerItemProxy */;
+		};
+		8F810A0921F95D200028C353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F8109E321F95D1E0028C353 /* ZWProgressPointBtn */;
+			targetProxy = 8F810A0821F95D200028C353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F810A0E21F95D200028C353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F810A0F21F95D200028C353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F810A1121F95D200028C353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F810A1221F95D200028C353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F810A1421F95D200028C353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWProgressPointBtn.app/ZWProgressPointBtn";
+			};
+			name = Debug;
+		};
+		8F810A1521F95D200028C353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWProgressPointBtn.app/ZWProgressPointBtn";
+			};
+			name = Release;
+		};
+		8F810A1721F95D200028C353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWProgressPointBtn;
+			};
+			name = Debug;
+		};
+		8F810A1821F95D200028C353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWProgressPointBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWProgressPointBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWProgressPointBtn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8109DF21F95D1E0028C353 /* Build configuration list for PBXProject "ZWProgressPointBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F810A0E21F95D200028C353 /* Debug */,
+				8F810A0F21F95D200028C353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F810A1021F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F810A1121F95D200028C353 /* Debug */,
+				8F810A1221F95D200028C353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F810A1321F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F810A1421F95D200028C353 /* Debug */,
+				8F810A1521F95D200028C353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F810A1621F95D200028C353 /* Build configuration list for PBXNativeTarget "ZWProgressPointBtnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F810A1721F95D200028C353 /* Debug */,
+				8F810A1821F95D200028C353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8109DC21F95D1E0028C353 /* Project object */;
+}
