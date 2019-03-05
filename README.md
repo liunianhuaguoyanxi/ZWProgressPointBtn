@@ -17,9 +17,11 @@
     [progressViewBtn.centerBtn setTitleColor:[UIColor whiteColor] forState:0];
     [progressViewBtn.centerBtn addTarget:self action:@selector(clickToCheck:) forControlEvents:UIControlEventTouchUpInside];
    ```
-## 展示效果：
+## 展示效果（show）：
 ### 技能加点
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgressPointBtn/raw/master/Gif/jienengdian.gif)
 ### 状态指示器
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgressPointBtn/raw/master/Gif/zhaungtaizhishiqi.gif)
 
+详情都在demo中，若能给大家带来帮助，记得star🙂
+All in the demo,wish it can help you!
